@@ -1,5 +1,5 @@
 body {
-    background: #f4f4f4;
+    background: #030303;
 }
 
 .card-filme {
@@ -19,4 +19,22 @@ body {
 a {
     text-decoration: none;
     color: #ffffff;
+}
+
+.container button {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin-left: auto;
+    margin-top: -10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button a {
+    color: #ffffff;
+    padding: 5px;
+    
+}
+button {
+    margin-bottom: 10px;
 }
